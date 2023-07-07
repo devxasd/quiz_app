@@ -13,9 +13,11 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   @override
   Widget build(context) {
     return SizedBox(
-      child: Center(
+      child: Container(
+        margin: const EdgeInsets.all(30),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
               currentQuestion.question,
@@ -23,6 +25,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
+              textAlign: TextAlign.center,
             ),
             const SizedBox(
               height: 20,
