@@ -3,10 +3,20 @@ import 'start_screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: StartScreen(),
+    MaterialApp(
+      home: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 255, 254, 232),
+                Color.fromARGB(255, 255, 255, 255)
+              ],
+            ),
+          ),
+          child: const StartScreen(),
+        ),
+      ),
     ),
   );
 }
-
-
