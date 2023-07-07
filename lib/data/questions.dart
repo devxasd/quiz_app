@@ -13,10 +13,10 @@ const questions = [
   QuizQuestion(
     'NetBeans uses which language ?',
     [
-      'Java',
-      'Python',
-      'Dart',
-      'PHP',
+      'Java 1',
+      'Python 1',
+      'Dart 1',
+      'PHP 1',
     ],
   ),
 ];
