@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class QuestionsScreen extends StatefulWidget {
   const QuestionsScreen({super.key});
-
   @override
   State<QuestionsScreen> createState() => _QuestionsScreenState();
 }
@@ -10,6 +9,16 @@ class QuestionsScreen extends StatefulWidget {
 class _QuestionsScreenState extends State<QuestionsScreen> {
   @override
   Widget build(context) {
-    return const Text('Questions Screen');
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          OutlinedButton(
+            onPressed: () {},
+            child: const Text('Go Back'),
+          ),
+        ],
+      ),
+    );
   }
 }
