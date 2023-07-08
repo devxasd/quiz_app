@@ -44,6 +44,9 @@ class ResultScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          const SizedBox(
+            height: 30,
+          ),
           QuestionsSummary(summaryData),
           const SizedBox(
             height: 20,
