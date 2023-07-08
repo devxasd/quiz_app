@@ -35,7 +35,7 @@ class ResultScreen extends StatelessWidget {
     }).length;
     return Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             '$correctQuestion out of $totalQuestions questions are correct',
