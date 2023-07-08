@@ -11,8 +11,11 @@ class ResultScreen extends StatelessWidget {
 
   final List<String> selectedAnswers;
   final void Function() onRestart;
+  //Alternative way
+  // List<Map<String, Object>> getSummaryData() {}
 
-  List<Map<String, Object>> getSummary() {
+  //we can use get or set for getter setter
+  List<Map<String, Object>> get summaryData {
     final List<Map<String, Object>> summary = [];
 
     for (int i = 0; i < selectedAnswers.length; i++) {
@@ -28,11 +31,15 @@ class ResultScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
-    final List<Map<String, Object>> summaryData = getSummary();
     int totalQuestions = questions.length;
-    int correctQuestion = summaryData.where((data) {
-      return (data['correct-answer'] == data['user-answer']);
-    }).length;
+    int correctQuestion = summaryData.where(
+      //use of => for returning something
+      (data) => (data['correct-answer'] == data['user-answer']),
+      //Alternative without =>
+      // (data) {
+      //   return (data['correct-answer'] == data['user-answer']);
+      // },
+    ).length;
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
