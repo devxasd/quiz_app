@@ -1,19 +1,29 @@
 # Quiz App
 
-![App Logo](screenshots/quiz-logo.png)
+<div align="center">
+  <img src="screenshots/app_logo.png" alt="App Logo" width="200">
+</div>
 
 Welcome to Quiz App, a fun and interactive quiz experience on your mobile device! Test your knowledge in various categories and challenge yourself with timed quizzes.
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-*Main Screen*
+<div align="center">
+  <img src="screenshots/screenshot1.png" alt="Main Screen">
+  <p>Main Screen</p>
+</div>
 
-![Screenshot 2](screenshots/screenshot2.png)
-*Questions Screen*
+<div align="center">
+  <img src="screenshots/screenshot2.png" alt="Questions Screen">
+  <p>Questions Screen</p>
+</div>
 
-![Screenshot 2](screenshots/screenshot2.png)
-*Result Screen*
+
+<div align="center">
+  <img src="screenshots/screenshot3.png" alt="Result Screen">
+  <p>Result Screen</p>
+</div>
+
 
 ## Features
 
