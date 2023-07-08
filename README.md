@@ -1,7 +1,7 @@
 # Quiz App
 
 <div align="center">
-  <img src="screenshots/app_logo.png" alt="App Logo" width="200">
+  <img src="screenshots/quiz-logo.png" alt="App Logo" width="200">
 </div>
 
 Welcome to Quiz App, a fun and interactive quiz experience on your mobile device! Test your knowledge in various categories and challenge yourself with timed quizzes.
